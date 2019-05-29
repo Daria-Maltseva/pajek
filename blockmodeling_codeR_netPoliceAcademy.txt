@@ -1,0 +1,134 @@
+library(blockmodeling)
+###-----------------------------------------------------------------------###
+### Analysis of Police Academy data                                       ###
+###-----------------------------------------------------------------------###
+
+### set working directory
+setwd("C:/Users/anjaz/Documents/SNA_Predavanja/Moscow_2019/Lectures on blockmodeling/Lab networks/PoliceAcademy")
+
+### load network
+netPAbin<-loadnetwork2("acad2vm_binarized.net", useSparseMatrix=FALSE)
+
+### plot matrix
+plot.mat(netPAbin)
+
+#----------------------------------------------------------------------------------------------------#
+# An example of indirect blockmodeling on binary network
+#----------------------------------------------------------------------------------------------------#
+
+### indirect blockmodeling (with squared Euclidean distance and Ward method for clusterin)
+res.hc<-hclust(d=sedist(M=netPAbin,handle.interaction = "none",method="euclidean"),method="ward.D2") 
+plot(res.hc,main="Network Police Academy (binarized)",xlab="") 
+plot(res.hc,main="Network Police Academy (binarized)",xlab="", hang=-1) 
+abline(h=10,col="red")
+savePlot(filename = "dend_PAbinarized",type="eps")
+
+### plot matrix with obtained partition
+clu_PAbin_6clu<-cutree(res.hc,k=6)
+plot.mat(netPAbin,clu=clu_PAbin_6clu, main="")
+
+#----------------------------------------------------------------------------------------------------#
+# Computation of criterion function with one random partition and optimization of that partition
+#----------------------------------------------------------------------------------------------------#
+### calculate random partition
+clu.rnd.bin <- sample(1:6, size = dim(netPA)[1], replace = TRUE)
+# critFunC compute the value of the criterin function for the consideret network, clusters and the selected blockmodeling approach
+res.rnd.bin <- critFunC(M = netPAbin, clu = clu.rnd.bin, approaches = "bin",blocks = c("nul", "com"))
+res.rnd.bin$err # Value of criterion function
+res.rnd.bin$EM  # Error by blocks
+res.rnd.bin$IM  # Image matrix
+### partition (or partitions if we will receive several equally well fiting partitions)
+### in case of several well fitting partitions they can be obtained by res.rnd.val$clu[[1]], res.rnd.val$clu[[2]],...
+res.rnd.bin$clu
+### plot the result
+plot.mat(netPAbin,clu=res.rnd.bin$clu[[1]],main="")
+# Compare both partition with the Adjusted Rand Index - ARI (from hierarchical clustering and the results of applying valued blockmodeling)
+crand2(clu_PAbin_6clu, res.rnd.bin$clu[[1]])  # ARI for the first obtain partition, results show that partitions are not similar, 
+### therfore optimazing only one random partition is not a good solution with "val" blockmodeling
+#----------------------------------------------------------------------------------------------------#
+
+#----------------------------------------------------------------------------------------------------#
+# An example of direct blockmodeling for binary networks
+#----------------------------------------------------------------------------------------------------#
+res.PAbin_directBM <- optRandomParC(M = netPAbin, k=4,rep=100, approaches = "bin", blocks=c("com","nul"))
+plot(res.PAbin_directBM)
+### 1 solutions (in my simulations) obtained
+plot(res.PAbin_directBM)
+res.PAbin_directBM
+#----------------------------------------------------------------------------------------------------#
+
+#----------------------------------------------------------------------------------------------------#
+# An example of direct blockmodeling (and pre-specified blockmodel)
+#----------------------------------------------------------------------------------------------------#
+# Computation of criterion function with the correct partition and correct pre-specified blockmodel
+# Prespecified blockmodel used (4 slusters and cohesive subgroups)
+# nul nul nul com
+# nul com nul nul
+# nul nul com nul
+# nul nul nul com
+B <- array(NA, dim = c(1, 1, 6, 6))
+B[1, 1, , ] <- "nul"
+B[1, 1, 1, 1] <- "com"
+B[1, 1, 2, 2] <- "com"
+B[1, 1, 3, 3] <- "com"
+B[1, 1, 4, 4] <- "com"
+B[1, 1, 5, 5] <- "com"
+B[1, 1, 6, 6] <- "com"
+B[1, 1, , ]
+res.PAbin.preS <- optRandomParC(M = netPAbin, k=6,rep=100, approaches = "bin", blocks = B)
+### several equally well fitting partitions are obtained
+res.PAbin.preSS$err 
+res.PAbin.preS$IM   ### it seems that there is a bug in the package, since IM is not printed
+plot(res.PAbin.preS, main="")
+#----------------------------------------------------------------------------------------------------#
+
+
+
+####
+#### Before analyzing valued networks with direct approach I suggest to read:
+#### A. Žiberna. 2007. Generalized blockmodeling of valued networks. Social Networks 29, 105–126
+####
+
+#----------------------------------------------------------------------------------------------------#
+# An example of indirect blockmodeling on valued network
+#----------------------------------------------------------------------------------------------------#
+### load network
+netPA<-loadnetwork2("acad2vm.net", useSparseMatrix=FALSE)
+
+### plot matrix
+plot.mat(netPA)
+
+### indirect blockmodeling (with squared Euclidean distance and Ward method for clusterin)
+res.hc<-hclust(d=sedist(M=netPA,handle.interaction = "none",method="euclidean"),method="ward.D2") 
+plot(res.hc,main="Network Police Academy",xlab="") 
+plot(res.hc,main="Network Police Academy",xlab="", hang=-1) 
+abline(h=50,col="red")
+savePlot(filename = "dend_PAvalued",type="eps")
+
+### plot matrix with obtained partition
+clu_PAvalued_4clu<-cutree(res.hc,k=4)
+plot.mat(netPA,clu=clu_PAvalued_4clu, main="")
+
+
+
+#----------------------------------------------------------------------------------------------------#
+# An example of valued blockmodeling (and pre-specified blockmodel)
+#----------------------------------------------------------------------------------------------------#
+# Computation of criterion function with the correct partition and correct pre-specified blockmodel
+# Prespecified blockmodel used (4 slusters and cohesive subgroups)
+# nul nul nul com
+# nul com nul nul
+# nul nul com nul
+# nul nul nul com
+B <- array(NA, dim = c(1, 1, 4, 4))
+B[1, 1, , ] <- "nul"
+B[1, 1, 1, 1] <- "com"
+B[1, 1, 2, 2] <- "com"
+B[1, 1, 3, 3] <- "com"
+B[1, 1, 4, 4] <- "com"
+B[1, 1, , ]
+res.PAval.preS <- optRandomParC(M = netPA, k=4,rep=1000, approaches = "hom", homFun = "ss", blocks = B)
+### several equally well fitting partitions are obtained
+res.PAval.preSS$err 
+res.PAval.preS$IM   ### it seems that there is a bug in the package, since IM is not printed
+plot(res.PAval.preS, main="")

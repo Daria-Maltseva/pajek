@@ -1,0 +1,20 @@
+library(blockmodeling)
+###-----------------------------------------------------------------------###
+### Analysis of Evrovision2019 data                                       ###
+###-----------------------------------------------------------------------###
+
+### set working directory
+setwd("C:/Users/anjaz/Documents/SNA_Predavanja/Moscow_2019/Lectures on blockmodeling/Lab networks/Eurovision_2019")
+
+### load network
+netEurovision<-loadnetwork2("netEurovision2019.net", useSparseMatrix=FALSE)
+
+### plot matrix
+plot.mat(netEurovision)
+
+### indirect blockmodeling (with Euclidean distance and Ward method for clusterin)
+res.hc<-hclust(d=sedist(M=netEurovision,handle.interaction = "none",method="euclidean"),method="ward.D2") 
+plot(res.hc,main="Network Eurovision 2019 voting",xlab="") 
+plot(res.hc,main="Network Eurovision 2019 voting",xlab="", hang=-1) 
+abline(h=68,col="red")
+savePlot(filename = "dend_netEurovision2019",type="eps")
