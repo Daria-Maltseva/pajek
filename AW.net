@@ -1,0 +1,28 @@
+*Vertices 12 6
+1 "Batagelj, Vladimir"                     
+2 "Doreian, Patrick"                       
+3 "Ferligoj, Anu&#353;ka"                  
+4 "Granovetter, Mark"                      
+5 "Wouter De Nooy"                        
+6 "Mrvar, Andrej"                          
+7 "Clustering with\nrelational constraint" 
+8 "The Strength of Weak Ties"              
+9 "Partitioning signed social networks"    
+10 "Generalized Blockmodeling"   
+11 "Exploratory Social Network Analysis with Pajek"
+12 "Analysis and visualization of large networks with program package Pajek"
+*Arcs 
+1  10 
+2  10 
+3  10
+1   7 
+3   7 
+4   8 
+2   9 
+6   9 
+1   11
+5   11 
+6   11 
+1   12 
+6   12 
+  
