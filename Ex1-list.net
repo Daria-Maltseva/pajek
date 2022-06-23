@@ -1,0 +1,17 @@
+*Vertices 6
+1 "a"
+2 "f"
+3 "c"
+4 "b"
+5 "d"
+6 "e"
+*Arcslist
+1 4
+2 6
+3 2
+4 5
+5 1
+6 3
+*Edgeslist
+1 5
+3 4 3
