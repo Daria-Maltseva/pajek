@@ -1,0 +1,285 @@
+*Network KdoRolaSlo
+*Vertices     127 59
+       1 "Nikolaj Bevk"                           0.6018    0.8045    0.5000 ellipse lr 11 lphi 285 fos 9
+       2 "Cvetka Selsek"                          0.6348    0.6193    0.5000
+       3 "Jakob Piskernik"                        0.6271    0.5701    0.5000
+       4 "Bine Kordez"                            0.5947    0.6429    0.5000
+       5 "Zlatko Kavcic"                          0.5488    0.6647    0.5000
+       6 "Janez Bohoric"                          0.5430    0.5510    0.5000
+       7 "Mirko Kaluza"                           0.1965    0.5704    0.5000
+       8 "Metod Dragonja"                         0.2207    0.6617    0.5000
+       9 "Tatjana Fink"                           0.5010    0.7533    0.5000
+      10 "Metka Tekavcic"                         0.4600    0.5643    0.5000
+      11 "Bogomir Kovac"                          0.4785    0.5244    0.5000
+      12 "Joze Lenic"                             0.3838    0.5628    0.5000
+      13 "Boris Zakrajsek"                        0.3682    0.4609    0.5000
+      14 "Alojz Jamnik"                           0.3213    0.5761    0.5000
+      15 "Miroslav Golubic"                       0.3574    0.3560    0.5000
+      16 "Anton Turnsek"                          0.3154    0.4786    0.5000
+      17 "Anton Majzelj"                          0.5039    0.4786    0.5000
+      18 "Joze Stanic"                            0.3721    0.5111    0.5000
+      19 "Marko Voljc"                            0.4521    0.4978    0.5000
+      20 "Marjan Kramar"                          0.4065    0.5883    0.5000
+      21 "Uros Slavinec"                          0.4287    0.6292    0.5000
+      22 "Janez Lotric"                           0.3643    0.6514    0.5000
+      23 "Stane Valant"                           0.4189    0.6957    0.5000
+      24 "Aljosa Tomaz"                           0.0817    0.4531    0.5000
+      25 "Zoran Jankovic"                         0.6396    0.5229    0.5000
+      26 "Branko Tomazic"                         0.5935    0.4103    0.5000
+      27 "Matjaz Gantar"                          0.6855    0.4727    0.5000
+      28 "Radovan Stonic"                         0.6262    0.4459    0.5000
+      29 "Milan Knezevic"                         0.5967    0.3560    0.5000
+      30 "Silvan Krizman"                         0.5159    0.2901    0.5000
+      31 "Franc Lotric"                           0.6709    0.7500    0.5000
+      32 "Joze Obersnel"                          0.2256    0.7194    0.5000
+      33 "Vladimir Ursic"                         0.1525    0.3136    0.5000
+      34 "Nada Klemencic"                         0.2637    0.3427    0.5000
+      35 "Milos Kovacic"                          0.2317    0.4527    0.5000
+      36 "Janko Kastelic"                         0.3828    0.4062    0.5000
+      37 "Ivan Ferme"                             0.2852    0.6219    0.5000
+      38 "Tomaz Subotic"                          0.3042    0.7614    0.5000
+      39 "Leonardo Peklar"                        0.2480    0.8795    0.5000
+      40 "Peter Grasek"                           0.1563    0.9633    0.5000
+      41 "Miro Kac"                               0.2342    0.5698    0.5000
+      42 "Edvard Oven"                            0.2243    0.4979    0.5000
+      43 "Joze Mermal"                            0.1943    0.3516    0.5000
+      44 "Franjo Bobinac"                         0.4307    0.3708    0.5000
+      45 "Simon Zdolsek"                          0.1865    0.4103    0.5000
+      46 "Stane Brglez"                           0.2471    0.1940    0.5000
+      47 "Jernej Cokl"                            0.3027    0.0857    0.5000
+      48 "Janez Erjavec"                          0.3964    0.2098    0.5000
+      49 "Borut Mokrovic"                         0.3290    0.3117    0.5000
+      50 "Joze Glogovsek"                         0.3871    0.2343    0.5000
+      51 "Herman Rigelnik"                        0.4788    0.2188    0.5000
+      52 "Bojan Petan"                            0.4607    0.3144    0.5000
+      53 "Aldo Babic"                             0.5605    0.2053    0.5000
+      54 "Bruno Korelic"                          0.5137    0.1137    0.5000
+      55 "Janko Kosmina"                          0.3809    0.0975    0.5000
+      56 "Branko Pavlin"                          0.4863    0.3988    0.5000
+      57 "Anton Koncnik"                          0.5996    0.2836    0.5000
+      58 "Joze Kranjc"                            0.5977    0.1152    0.5000
+      59 "Gorazd Cuk"                             0.2617    0.2526    0.5000
+      60 "Iskra Emeco"                            0.6367    0.8421    0.5000 box lr 11 lphi 285 fos 9
+      61 "Lip Bled"                               0.5663    0.7330    0.5000
+      62 "Gorenjska banka"                        0.6436    0.6795    0.5000
+      63 "Lek"                                    0.3291    0.6588    0.5000
+      64 "KAD"                                    0.2817    0.5583    0.5000
+      65 "Delo"                                   0.3242    0.5066    0.5000
+      66 "SCT"                                    0.2568    0.4712    0.5000
+      67 "Prevent"                                0.3418    0.2600    0.5000
+      68 "Pivovarna Lasko"                        0.2402    0.3722    0.5000
+      69 "Aerodrom Ljubljana"                     0.2910    0.2304    0.5000
+      70 "Kolinska"                               0.2783    0.3146    0.5000
+      71 "LB Maksima"                             0.3604    0.4239    0.5000
+      72 "NLB"                                    0.4258    0.5244    0.5000
+      73 "Helios"                                 0.3887    0.7105    0.5000
+      74 "Trimo"                                  0.4713    0.6604    0.5000
+      75 "Droga"                                  0.5439    0.4564    0.5000
+      76 "Sava"                                   0.4365    0.4357    0.5000
+      77 "Svet Banke Slovenije"                   0.5791    0.7016    0.5000
+      78 "Merkur"                                 0.5607    0.5850    0.5000
+      79 "SKB banka"                              0.7217    0.6573    0.5000
+      80 "Pivovarna Union"                        0.6729    0.4904    0.5000
+      81 "Probanka DZU"                           0.7021    0.4210    0.5000
+      82 "Slovenica"                              0.7520    0.4520    0.5000
+      83 "Kmecka druzba"                          0.6592    0.3870    0.5000
+      84 "Mercator"                               0.5977    0.4874    0.5000
+      85 "Hoteli Palace"                          0.1172    0.5377    0.5000
+      86 "Abanka"                                 0.0859    0.3279    0.5000
+      87 "NFD"                                    0.5049    0.6913    0.5000
+      88 "Petrol"                                 0.3867    0.6086    0.5000
+      89 "SID"                                    0.3379    0.6130    0.5000
+      90 "Gorenje"                                0.4814    0.4313    0.5000
+      91 "ELES"                                   0.5732    0.5140    0.5000
+      92 "Mobitel"                                0.5410    0.4225    0.5000
+      93 "Banka Celje"                            0.2891    0.5318    0.5000
+      94 "Cinkarna Celje"                         0.1676    0.5972    0.5000
+      95 "Telekom"                                0.1891    0.9026    0.5000
+      96 "Socius"                                 0.2676    0.9295    0.5000
+      97 "Mura"                                   0.2707    0.8085    0.5000
+      98 "Etal"                                   0.3330    0.7031    0.5000
+      99 "Krka"                                   0.3180    0.4282    0.5000
+     100 "Triglav DZU"                            0.3262    0.3737    0.5000
+     101 "Zavarovalnica Triglav"                  0.2148    0.2806    0.5000
+     102 "HIT"                                    0.5731    0.3204    0.5000
+     103 "Zadruzna banka"                         0.6885    0.2629    0.5000
+     104 "Kolinska"                               0.7012    0.3146    0.5000
+     105 "Kompas MTS"                             0.6592    0.3338    0.5000
+     106 "Dnevnik"                                0.5102    0.3399    0.5000
+     107 "DZS"                                    0.3949    0.2631    0.5000
+     108 "Terme Catez"                            0.4141    0.3279    0.5000
+     109 "BTC"                                    0.1836    0.4133    0.5000
+     110 "Stanovanjski sklad"                     0.1531    0.5115    0.5000
+     111 "Delo Prodaja"                           0.1873    0.2387    0.5000
+     112 "TE Sostanj"                             0.1081    0.4234    0.5000
+     113 "Krekova druzba"                         0.1134    0.3647    0.5000
+     114 "Belinka"                                0.2803    0.4032    0.5000
+     115 "Impol"                                  0.2672    0.0460    0.5000
+     116 "Infond ID"                              0.3242    0.1817    0.5000
+     117 "Pomurski sejem"                         0.4044    0.1256    0.5000
+     118 "NKBM"                                   0.4392    0.2664    0.5000
+     119 "Vecer"                                  0.3876    0.1573    0.5000
+     120 "Avtocommerce"                           0.4954    0.1405    0.5000
+     121 "Istrabenz"                              0.2607    0.1374    0.5000
+     122 "Luka Koper"                             0.5830    0.1418    0.5000
+     123 "Casino Portoroz"                        0.5181    0.2549    0.5000
+     124 "Banka Koper"                            0.4688    0.0561    0.5000
+     125 "Simobil"                                0.3617    0.0367    0.5000
+     126 "Intereuropa"                            0.6152    0.1861    0.5000
+     127 "SOD"                                    0.6525    0.2294    0.5000
+*Arcs
+*Edges
+% povezave rdeee barve (utez 2) pomenijo predsednika uprave
+% povezave modre barve (utez 1) pa pomenijo predsednika nadzornega sveta
+       1       60 2     c Red
+       2       79 2     c Red
+       4       78 2     c Red
+       5       62 2     c Red
+       6       76 2     c Red
+       8       63 2     c Red
+       9       74 2     c Red
+      12       64 2     c Red
+      13       72 2     c Red
+      14       72 2     c Red
+      15       71 2     c Red
+      16       68 2     c Red
+      17       92 2     c Red
+      18       90 2     c Red
+      19       72 2     c Red
+      20       89 2     c Red
+      21       73 2     c Red
+      22       88 2     c Red
+      23       87 2     c Red
+      24       86 2     c Red
+      25       84 2     c Red
+      26      102 2     c Red
+      27       83 2     c Red
+      28       81 2     c Red
+      29      103 2     c Red
+      30      102 2     c Red
+      33      101 2     c Red
+      34      101 2     c Red
+      35       99 2     c Red
+      36      100 2     c Red
+      37       98 2     c Red
+      39       96 2     c Red
+      40       95 2     c Red
+      41       93 2     c Red
+      42      110 2     c Red
+      43      109 2     c Red
+      45      113 2     c Red
+      46      116 2     c Red
+      47      115 2     c Red
+      48      117 2     c Red
+      49      108 2     c Red
+      50      118 2     c Red
+      51      120 2     c Red
+      52      107 2     c Red
+      53      123 2     c Red
+      54      122 2     c Red
+      55      121 2     c Red
+      56      106 2     c Red
+      57      127 2     c Red
+      58      126 2     c Red
+       1       61 1     c Blue
+       2       78 1     c Blue
+       3       78 1     c Blue
+       3       80 1     c Blue
+       4       77 1     c Blue
+       5       61 1     c Blue
+       5       78 1     c Blue
+       5       87 1     c Blue
+       6       78 1     c Blue
+       6       84 1     c Blue
+       7       64 1     c Blue
+       7       85 1     c Blue
+       9       77 1     c Blue
+      10       72 1     c Blue
+      10       74 1     c Blue
+      11       72 1     c Blue
+      11       75 1     c Blue
+      12       63 1     c Blue
+      12       65 1     c Blue
+      12       72 1     c Blue
+      12       76 1     c Blue
+      13       65 1     c Blue
+      13       66 1     c Blue
+      13       71 1     c Blue
+      14       93 1     c Blue
+      15       67 1     c Blue
+      15       69 1     c Blue
+      15       70 1     c Blue
+      15      108 1     c Blue
+      16       65 1     c Blue
+      16       93 1     c Blue
+      17       90 1     c Blue
+      17       91 1     c Blue
+      18       88 1     c Blue
+      18       89 1     c Blue
+      18       93 1     c Blue
+      19       90 1     c Blue
+      20       72 1     c Blue
+      21       72 1     c Blue
+      21       88 1     c Blue
+      22       89 1     c Blue
+      23       88 1     c Blue
+      23       98 1     c Blue
+      24       85 1     c Blue
+      26       84 1     c Blue
+      27       82 1     c Blue
+      27       84 1     c Blue
+      28       75 1     c Blue
+      28       80 1     c Blue
+      28      105 1     c Blue
+      29       83 1     c Blue
+      29      104 1     c Blue
+      29      106 1     c Blue
+      30      118 1     c Blue
+      31       62 1     c Blue
+      32       63 1     c Blue
+      33       86 1     c Blue
+      34      100 1     c Blue
+      36       76 1     c Blue
+      36       99 1     c Blue
+      36      108 1     c Blue
+      36      114 1     c Blue
+      37       89 1     c Blue
+      37       93 1     c Blue
+      38       97 1     c Blue
+      38       98 1     c Blue
+      39       95 1     c Blue
+      39       97 1     c Blue
+      41       94 1     c Blue
+      42       93 1     c Blue
+      42      109 1     c Blue
+      43      101 1     c Blue
+      43      111 1     c Blue
+      44       90 1     c Blue
+      44      118 1     c Blue
+      45      112 1     c Blue
+      45      114 1     c Blue
+      46      111 1     c Blue
+      47      116 1     c Blue
+      48      116 1     c Blue
+      48      118 1     c Blue
+      49      101 1     c Blue
+      49      107 1     c Blue
+      50      107 1     c Blue
+      50      116 1     c Blue
+      50      119 1     c Blue
+      51      118 1     c Blue
+      52      106 1     c Blue
+      52      108 1     c Blue
+      52      123 1     c Blue
+      53      122 1     c Blue
+      54      120 1     c Blue
+      54      124 1     c Blue
+      55      124 1     c Blue
+      55      125 1     c Blue
+      56       90 1     c Blue
+      57      105 1     c Blue
+      57      123 1     c Blue
+      57      126 1     c Blue
+      58      124 1     c Blue
+      59       68 1     c Blue
+      59      121 1     c Blue
