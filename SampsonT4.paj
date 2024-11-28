@@ -1,0 +1,205 @@
+*Network Sampson T4
+*Vertices      18
+      1 "John_Bosco"                             0.4955    0.4773    0.5000
+      2 "Gregory"                                0.5913    0.3033    0.5000
+      3 "Basil"                                  0.4359    0.2145    0.5000
+      4 "Peter"                                  0.1724    0.7910    0.5000
+      5 "Bonaventur"                             0.2467    0.6849    0.5000
+      6 "Berthold"                               0.0792    0.9461    0.5000
+      7 "Mark"                                   0.7098    0.2278    0.5000
+      8 "Victor"                                 0.7047    0.6966    0.5000
+      9 "Ambrose"                                0.6219    0.8856    0.5000
+     10 "Romuald"                                0.2407    0.9387    0.5000
+     11 "Louis"                                  0.3640    0.7754    0.5000
+     12 "Winfrid"                                0.7543    0.5128    0.5000
+     13 "Amand"                                  0.0814    0.4428    0.5000
+     14 "Hugh"                                   0.5211    0.6157    0.5000
+     15 "Boniface"                               0.3130    0.4397    0.5000
+     16 "Albert"                                 0.8312    0.0539    0.5000
+     17 "Elias"                                  0.2620    0.0621    0.5000
+     18 "Simplicius"                             0.2315    0.2589    0.5000
+*Arcs
+      1      2      -2 c  Red
+      1      3       3 c Black
+      1      7      -3 c  Red
+      1     10      -1 c  Red
+      1     12       1 c Black
+      1     14       2 c Black
+      2      1       3 c Black
+      2      4      -3 c  Red
+      2      7       1 c Black
+      2      8      -2 c  Red
+      2     12       2 c Black
+      2     13      -1 c  Red
+      3      1       3 c Black
+      3      2      -2 c  Red
+      3      4      -3 c  Red
+      3      6      -2 c  Red
+      3     13       2 c Black
+      3     16      -1 c  Red
+      3     17       1 c Black
+      3     18       2 c Black
+      4      1      -2 c  Red
+      4      2      -3 c  Red
+      4      5       3 c Black
+      4      6       1 c Black
+      4     11       2 c Black        
+      4     14      -1 c  Red
+      5      4       3 c Black
+      5      9       1 c Black
+      5     11       2 c Black
+      6      2      -1 c  Red
+      6      3      -3 c  Red
+      6      4       3 c Black
+      6      5       1 c Black
+      6      7      -2 c  Red
+      6      9       2 c Black
+      6     17      -2 c  Red
+      7      2       3 c Black
+      7      4      -3 c  Red
+      7      6      -2 c  Red
+      7      8      -1 c  Red
+      7     12       1 c Black
+      7     16       2 c Black
+      8      2      -3 c  Red
+      8      3      -2 c  Red
+      8      4       3 c Black
+      8      6       2 c Black
+      8      9       1 c Black
+      8     14      -1 c  Red
+      9      3      -3 c  Red
+      9      5       1 c Black
+      9      8       3 c Black
+      9     12       2 c Black
+      9     17      -2 c  Red
+      9     18      -1 c  Red
+     10      4       3 c Black
+     10      5       1 c Black
+     10      9       1 c Black
+     10     13       2 c Black
+     11      1      -1 c  Red
+     11      2      -3 c  Red
+     11      3      -2 c  Red
+     11      5       2 c Black
+     11      8       3 c Black
+     11     14       1 c Black
+     12      1       3 c Black
+     12      2       2 c Black
+     12      7       1 c Black
+     13      2      -3 c  Red
+     13      5       2 c Black
+     13      6      -2 c  Red
+     13      7       1 c Black
+     13     12      -1 c  Red
+     13     18       3 c Black
+     14      1       3 c Black
+     14      4      -3 c  Red
+     14      8      -2 c  Red
+     14     12       1 c Black
+     14     15       2 c Black
+     14     17      -1 c  Red
+     15      2       3 c Black
+     15      3      -2 c  Red
+     15      4      -1 c  Red
+     15      7       1 c Black
+     15     12       2 c Black
+     15     13      -3 c  Red
+     16      2       3 c Black
+     16      3      -1 c  Red
+     16      4      -3 c  Red
+     16      7       2 c Black
+     16     15       1 c Black
+     16     17      -2 c  Red
+     17      2       1 c Black
+     17      3       2 c Black
+     17      4      -1 c  Red
+     17      6      -3 c  Red
+     17      8      -2 c  Red
+     17     18       3 c Black
+     18      2       1 c Black
+     18      3       2 c Black
+     18      4      -1 c  Red
+     18      8      -3 c  Red
+     18     10      -2 c  Red
+     18     17       3 c Black
+*Edges
+
+*Partition Random partition into 5 clusters
+*Vertices 18
+3
+1
+4
+4
+3
+5
+5
+2
+1
+3
+4
+5
+2
+2
+4
+5
+1
+2
+
+*Partition Vertex IN selected cluster
+*Vertices 18
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+
+*Partition Vertex NOT IN selected cluster
+*Vertices 18
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+0
+
+*Vector MINIMUM SIZE of Clusters
+*Vertices 5
+0
+12
+0
+0
+0
+
+*Vector MAXIMUM SIZE of Clusters
+*Vertices 5
+1
+0
+1
+0
+1
+
