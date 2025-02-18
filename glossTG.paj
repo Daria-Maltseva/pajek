@@ -1,0 +1,198 @@
+*Network GlossTG
+% Bill Cherowitzo: Graph and Digraph Glossary
+% http://www-math.cudenver.edu/~wcherowi/courses/m4408/glossary.html
+% Pajek's network: Barbara Zemlji"c, 2. nov 2003
+*Vertices      72
+ 1 "Acyclic Graph"           0.6519 0.8284
+ 2 "Adjacency Matrix"        0.3203 0.4793
+ 3 "Adjacency Structure"     0.6785 0.2973
+ 4 "Adjacent"                0.6658 0.3802
+ 5 "Ancestor"                0.9025 0.0429
+ 6 "Arc"                     0.1797 0.7041
+ 7 "Arc List"                0.2899 0.3743
+ 8 "Bipartite Graph"         0.4949 0.5207
+ 9 "Binary Code"             0.1861 0.0991
+10 "Binary Search Tree"      0.1443 0.8491
+11 "Bridge"                  0.6025 0.6716
+12 "Child"                   0.1759 0.9763
+13 "Chromatic Number"        0.3810 0.7515
+14 "Clique"                  0.6848 0.4941
+15 "Closure"                 0.8152 0.3402
+16 "Complete"                0.6759 0.4423
+17 "Connected Component"     0.6671 0.6598
+18 "Condensed Graph"         0.4924 0.3861
+19 "Connected"               0.6430 0.7012
+20 "Cycle"                   0.7063 0.8757
+21 "Decision Tree"           0.0810 0.7751
+22 "Degree"                  0.7494 0.1583
+23 "Degree Sequence"         0.8873 0.4379
+24 "Descendant"              0.9025 0.1065
+25 "Diameter"                0.7835 0.4734
+26 "Digraph"                 0.1797 0.3713
+27 "Distance"                0.7354 0.5843
+28 "Edge"                    0.4076 0.2426
+29 "Forest"                  0.6848 0.7648
+30 "Graph"                   0.4468 0.7278
+31 "Hamiltonian"             0.8380 0.5917
+32 "Height"                  0.5063 0.9305
+33 "Homeomorphic"            0.5861 0.4423
+34 "Incidence Matrix"        0.8949 0.1642
+35 "Internal Vertex"         0.5949 0.0296
+36 "Isomorphic"              0.2456 0.1731
+37 "k-Colorable"             0.3557 0.6524
+38 "Label"                   0.0405 0.2633
+39 "Leaf"                    0.6772 0.1420
+40 "Level"                   0.4215 0.8521
+41 "Loop"                    0.3861 0.4393
+42 "m-ary Tree"              0.1367 0.9216
+43 "Matching"                0.7734 0.0370
+44 "Neighborhood"            0.3696 0.1450
+45 "Node"                    0.4861 0.1050
+46 "Offspring"               0.3076 0.8580
+47 "Order"                   0.5506 0.0725
+48 "Ordered Tree"            0.2835 0.9675
+49 "Orientation"             0.1709 0.3092
+50 "Parent"                  0.8975 0.2737
+51 "Path"                    0.7848 0.9393
+52 "Pendant Vertex"          0.6418 0.0917
+53 "Prefix Code"             0.1823 0.0237
+54 "Perfect Matching"        0.7650 0.1088
+55 "Planar"                  0.3405 0.2722
+56 "Reduced Graph"           0.4532 0.4541
+57 "Regular"                 0.7278 0.2293
+58 "Rooted Tree"             0.3253 0.9246
+59 "Saturated vertex"        0.6850 0.0649
+60 "Sibling"                 0.8962 0.3728
+61 "Size"                    0.4861 0.2175
+62 "Spanning Subgraph"       0.6025 0.5355
+63 "Spanning Tree"           0.5759 0.6124
+64 "Strongly Connected"      0.3443 0.7973
+65 "Subgraph"                0.6380 0.5917
+66 "Topological Order"       0.1114 0.5370
+67 "Tournament"              0.1266 0.4083
+68 "Trail"                   0.7633 0.8151
+69 "Tree"                    0.5646 0.8624
+70 "Underlying Graph"        0.8911 0.5192
+71 "Vertex"                  0.6456 0.1805
+72 "Walk"                    0.7494 0.7219
+*Arcs
+ 1 20
+ 1 30
+ 2  6
+ 2 28
+ 3  4
+ 4 28
+ 4 71
+ 7  6
+ 7 26
+ 7 71
+ 8 28
+ 8 30
+ 8 69
+ 8 71
+10 42
+10 46
+11 19
+13 30
+13 37
+14 16
+14 65
+15  4
+15 22
+15 31
+16  4
+17 65
+18 28
+18 30
+18 41
+18 71
+19 72
+20 51
+21 38
+21 42
+22 71
+25 27
+25 71
+25 72
+26  6
+26 30
+26 71
+27 72
+28 30
+29 17
+29 20
+29 30
+29 69
+31 20
+31 51
+31 72
+32 51
+32 58
+33 28
+33 30
+33 72
+35 52
+36 30
+36 38
+36 44
+37  6
+37 30
+37 71
+38 28
+38 71
+39 22
+39 71
+40 32
+40 58
+41  6
+41 26
+41 28
+41 30
+41 71
+42 46
+42 58
+44 71
+46  6
+46 40
+46 58
+47 71
+48 12
+48 58
+49 26
+51 68
+52 22
+52 71
+53  9
+54 43
+55 28
+56 28
+56 30
+57 22
+57 71
+58 69
+59 43
+60 50
+61 28
+62 30
+62 65
+62 71
+63 30
+63 62
+63 69
+64 26
+64 72
+66  6
+66 26
+66 38
+67 26
+68 72
+69 19
+69 20
+69 30
+71 30
+*Edges
+ 6 28
+17 19
+39 52
+45 71
+
